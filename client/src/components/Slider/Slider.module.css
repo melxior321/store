@@ -1,0 +1,34 @@
+.imgCar {
+    background: url('../../assets/original.jpg') no-repeat fixed bottom;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    z-index: -2;
+}
+
+.ac {
+    background: url('../../assets/AC.jpg') no-repeat fixed bottom;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    z-index: -2;
+}
+
+.dp {
+    background: url('../../assets/DP.jpg') no-repeat fixed bottom;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    z-index: -2;
+}
+
+.overlay {
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}

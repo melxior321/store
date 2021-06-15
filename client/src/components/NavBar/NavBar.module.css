@@ -1,0 +1,26 @@
+.navBar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navContainer{
+    height: 2rem;
+    width: 100%;
+}
+
+.navContainer > * {
+    margin: 0 10px;
+}
+
+.navContainer a,
+.navContainer button {
+    padding: 10px;
+    border: none;
+}
+.navContainer a:hover,
+.navContainer button:hover {
+    background: #5d5959;
+    border-radius: 8px;
+    text-decoration: none;
+}

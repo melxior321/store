@@ -1,0 +1,8 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,48 @@
+.devicesList{
+    display: grid;
+    grid-template-rows: 3fr 3fr;
+    min-height: 200px;
+    text-align: center;
+}
+
+.devicesList > div:nth-child(2n){
+    background: #f7f7f7;
+}
+
+.deviceRow,
+.deviceHeader{
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+    padding: 15px 0;
+}
+.deviceRow > div:first-child,
+.deviceHeader > div:first-child {
+    display: grid;
+    grid-template-columns: 1fr repeat(6, 3fr);
+}
+.deviceRow > div:first-child > * ,
+.deviceHeader > div:first-child > *{
+    margin: auto 0;
+}
+
+.deviceRow:hover{
+    cursor: pointer;
+    background-color: #d4d4d4 !important;
+}
+
+.deviceImg{
+    width: 80px;
+}
+
+.totalRow{
+    display: grid;
+    min-height: 40px;
+    grid-template-columns: 24fr 4fr 3fr;
+}
+.totalRow > *{
+    margin: auto 0;
+}
+
+.emptyBasket{
+    line-height: 6em;
+}

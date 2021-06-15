@@ -1,0 +1,27 @@
+.jumbo {
+    background: url('../../assets/IT.jpg') no-repeat fixed bottom;
+    background-size: cover;
+    color: #efefef;
+    position: relative;
+    z-index: -2;
+    margin: 0;
+}
+
+.overlay {
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.descriptionContainer{
+    color: white;
+}
+
+.descriptionContainer h2{
+    color: red;
+}

@@ -1,0 +1,40 @@
+.deviceContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.deviceCard{
+    width: 150px;
+    cursor: pointer;
+}
+
+.deviceCardStar{
+    width: 18px;
+    height: 18px;
+}
+
+.deviceCardImg{
+    width: 150px;
+    height: 150px;
+}
+
+.deleteButton{
+    background: url("../../assets/icons/trash.png");
+}
+
+.servicePanel{
+    display: flex;
+    justify-content: flex-end;
+    width: 150px;
+}
+.servicePanel > * {
+    margin-right: 0.2rem;
+}
+
+.serviceIcon{
+    width: 20px;
+    z-index: 100;
+}
+.serviceIcon:hover{
+    background: #eaeaea;
+}

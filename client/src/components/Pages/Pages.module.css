@@ -1,0 +1,12 @@
+.paginatorPanel{
+    display: flex;
+    justify-content: space-between;
+}
+.pageSizeContainer{
+    display: flex;
+    align-items: center;
+}
+
+.pageSizeLabel{
+    margin-right: 1rem;
+}
