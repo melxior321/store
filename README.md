@@ -1,4 +1,4 @@
 
-## npm run dev - запуск сервера
+## npm run dev - server start
 
-## npm start - запуск клиента
+## npm start - client start
